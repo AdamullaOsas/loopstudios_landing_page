@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navLink {
+        font-family: "Alata", sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .inBox {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 72px;
+        line-height: 70px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}
